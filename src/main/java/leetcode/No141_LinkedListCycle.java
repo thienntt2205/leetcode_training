@@ -18,13 +18,13 @@ public class No141_LinkedListCycle {
             if (head == null || head.next == null) {
                 return false;
             }
-            if (head.next == head) return true;
-            {
-                ListNode nextNode = head.next;
-                head.next = head;
-                boolean isCycle = hasCycle(nextNode);
-                return isCycle;
+            if (head.next == head) {
+                return true;
             }
+            ListNode nextNode = head.next;
+            head.next = head;
+            boolean isCycle = hasCycle(nextNode);
+            return isCycle;
         }
     }
 }
