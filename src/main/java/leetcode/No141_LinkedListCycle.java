@@ -1,5 +1,6 @@
 package leetcode;
 
+//https://leetcode.com/problems/linked-list-cycle/
 public class No141_LinkedListCycle {
 
     //    Definition for singly-linked list.
