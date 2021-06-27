@@ -1,5 +1,5 @@
 package leetcode;
-
+//https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 public class No167_TwoSum_II {public int[] twoSum(int[] numbers, int target) {
     int fisrtIndex = 0, secondIndex = numbers.length - 1;
     while (numbers[fisrtIndex] + numbers[secondIndex] != target) {
