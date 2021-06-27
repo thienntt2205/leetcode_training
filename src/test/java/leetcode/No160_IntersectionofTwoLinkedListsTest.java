@@ -1,10 +1,12 @@
 package leetcode;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
 
-class No160_IntersectionofTwoLinkedListsTest {
+import static org.junit.Assert.*;
 
-    @org.junit.jupiter.api.Test
-    void getIntersectionNode() {
+public class No160_IntersectionofTwoLinkedListsTest {
+
+    @Test
+    public void getIntersectionNode() {
     }
 }
