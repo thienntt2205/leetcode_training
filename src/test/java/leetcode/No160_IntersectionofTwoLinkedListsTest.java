@@ -8,5 +8,11 @@ public class No160_IntersectionofTwoLinkedListsTest {
 
     @Test
     public void getIntersectionNode() {
+//            int input = 10;
+//            String expected = "...";
+//            String actual = convertToTile(input);
+//            assertEquals(...);
+//        }
+//    }
     }
 }
