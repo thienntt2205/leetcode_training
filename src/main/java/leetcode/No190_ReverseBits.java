@@ -2,11 +2,11 @@
 package leetcode;
 
 public class No190_ReverseBits {
+
     public int reverseBits(int n) {
         for (int i = 0; i < 16; i++) {
             n = swapBits(n, i, 32 - i - 1);
         }
-
         return n;
     }
 
@@ -17,7 +17,6 @@ public class No190_ReverseBits {
         if ((a ^ b) != 0) {
             return n ^= (1 << i) | (1 << j);
         }
-
         return n;
     }
 }
