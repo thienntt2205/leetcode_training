@@ -1,6 +1,5 @@
 package leetcode;
 
-import com.sun.tools.javac.comp.Todo;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
